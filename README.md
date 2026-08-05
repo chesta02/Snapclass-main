@@ -138,22 +138,6 @@ SnapClass/
 
 </p>
 
-## 🏠 Home Page
-
-<p align="center">
-
-<img src="demo/snap-landing.png" width="900">
-
-</p>
-
-## 🏠 Home Page
-
-<p align="center">
-
-<img src="demo/snap-landing.png" width="900">
-
-</p>
-
 ## 👨‍🏫 Teacher Dashboard
 
 <p align="center">
