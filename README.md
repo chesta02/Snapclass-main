@@ -2,249 +2,260 @@
 
 > **AI-Powered Classroom & Attendance Management System**
 
-SnapClass is an AI-powered classroom management system that simplifies classroom administration and attendance tracking. Teachers can create and manage classrooms, generate QR codes for students to join, and monitor attendance records. Students can securely mark attendance using **Face Recognition** or **Voice Recognition**, making the process faster, smarter, and more reliable.
+SnapClass is an AI-powered classroom and attendance management system that leverages **Face Recognition**, **Voice Recognition**, and **QR Code-based classroom enrollment** to simplify attendance management. Built with **Python**, **Streamlit**, and **Supabase**, it provides a secure and efficient platform for teachers and students.
 
 <p align="center">
 
-[![Live Demo](https://img.shields.io/badge/🚀%20Live%20Demo-Streamlit-success?style=for-the-badge)](https://snapclass-maiin.streamlit.app/)
-[![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
-[![Supabase](https://img.shields.io/badge/Supabase-Database-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)](https://supabase.com/)
+<a href="https://snapclass-maiin.streamlit.app/">
+
+<img src="https://img.shields.io/badge/🚀%20Live%20Application-Streamlit-success?style=for-the-badge">
+
+</a>
+
+<a href="https://snapclass-landing-page-eight.vercel.app/">
+
+<img src="https://img.shields.io/badge/🌐%20Landing%20Page-Vercel-black?style=for-the-badge&logo=vercel">
+
+</a>
 
 </p>
 
 ---
-🌐 Landing Page:
-https://github.com/chesta02/snapclass-landing-page
-## 🌐 Live Demo
 
-🔗 **https://snapclass-maiin.streamlit.app/**
+## 🌐 Live Links
+
+🚀 **Application:**  
+
+https://snapclass-maiin.streamlit.app/
+
+🌍 **Landing Page:**  
+
+https://snapclass-landing-page-eight.vercel.app/
 
 ---
 
 ## 📌 Overview
 
-Traditional attendance systems are often time-consuming and susceptible to proxy attendance. SnapClass addresses these challenges by integrating biometric authentication with modern classroom management.
+SnapClass modernizes classroom attendance by integrating biometric authentication and cloud-based classroom management into a single platform.
 
-Teachers can create classrooms, generate QR codes for students to join instantly, and monitor attendance records. Students can authenticate themselves using Face Recognition or Voice Recognition before attendance is recorded, ensuring both security and accuracy.
-
----
-
-# ✨ Features
-
-## 👨‍🏫 Teacher Portal
-
-- 🔐 Secure Teacher Login
-- ➕ Create & Manage Classrooms
-- 📱 Generate QR Codes for Classroom Joining
-- 👥 View Enrolled Students
-- 📊 Monitor Attendance Records
-- 📚 Manage Multiple Classrooms
+Teachers can create classrooms, generate QR codes for students to join, and monitor attendance records. Students securely verify their identity using Face Recognition or Voice Recognition before attendance is recorded.
 
 ---
 
-## 👨‍🎓 Student Portal
+## ✨ Features
 
-- 🔐 Secure Student Login
-- 📱 Join Classrooms by Scanning QR Codes
-- 📷 Mark Attendance using Face Recognition
-- 🎤 Mark Attendance using Voice Recognition
-- 📖 View Joined Classrooms
+### 👨‍🏫 Teacher Portal
 
----
+- Secure Login
 
-# 🤖 AI Features
+- Create & Manage Classrooms
 
-### 📷 Face Recognition
+- Generate QR Codes for Classroom Joining
 
-- Secure biometric attendance verification.
-- Prevents proxy attendance.
-- Fast and reliable identity authentication.
+- View Enrolled Students
 
-### 🎤 Voice Recognition
+- Monitor Attendance Records
 
-- Voice biometric authentication for attendance.
-- Enhances attendance security.
-- Accurate and seamless verification.
+### 👨‍🎓 Student Portal
 
-### 📱 QR Code Classroom Joining
+- Secure Login
 
-Teachers can generate QR codes that allow students to join classrooms instantly without manually entering classroom details.
+- Join Classroom using QR Codes
+
+- Face Recognition Attendance
+
+- Voice Recognition Attendance
+
+- View Joined Classrooms
 
 ---
 
-# 🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 | Category | Technologies |
+
 |----------|--------------|
-| **Language** | Python |
-| **Framework** | Streamlit |
-| **Database** | Supabase |
-| **Face Recognition** | face_recognition, dlib |
-| **Voice Recognition** | Resemblyzer, Librosa |
-| **Authentication** | bcrypt |
-| **QR Code Generation** | Segno |
-| **Image Processing** | Pillow |
-| **Data Processing** | NumPy, Pandas |
+
+| Language | Python |
+
+| Framework | Streamlit |
+
+| Database | Supabase |
+
+| Face Recognition | face_recognition, dlib |
+
+| Voice Recognition | Resemblyzer, Librosa |
+
+| Authentication | bcrypt |
+
+| QR Code | Segno |
+
+| Image Processing | Pillow |
+
+| Data Processing | NumPy, Pandas |
 
 ---
 
-# 📂 Project Structure
+## 📂 Project Structure
 
 ```text
+
 SnapClass/
+
 │
+
 ├── src/
+
 │   ├── components/
+
 │   ├── database/
+
 │   ├── pipelines/
-│   │   ├── face_pipeline.py
-│   │   └── voice_pipeline.py
+
 │   ├── screens/
-│   │   ├── home_screen.py
-│   │   ├── teacher_screen.py
-│   │   └── student_screen.py
+
 │   └── ui/
+
 │
+
 ├── app.py
+
 ├── requirements.txt
+
 └── README.md
+
 ```
 
 ---
 
-# 📸 Application Preview
+## 📸 Application Preview
 
 ## 🏠 Home Page
 
-> *(Add Home Page Screenshot)*
+<p align="center">
 
----
+<img src="demo/snap-landing.png" width="900">
+
+</p>
+
+## 🏠 Home Page
+
+<p align="center">
+
+<img src="demo/snap-landing.png" width="900">
+
+</p>
+
+## 🏠 Home Page
+
+<p align="center">
+
+<img src="demo/snap-landing.png" width="900">
+
+</p>
 
 ## 👨‍🏫 Teacher Dashboard
 
-> *(Add Teacher Dashboard Screenshot)*
+<p align="center">
 
----
+<img src="demo/snap-teacher-flow-2-dashboard.png" width="900">
 
-## 👨‍🎓 Student Dashboard
+</p>
 
-> *(Add Student Dashboard Screenshot)*
+##  👨‍🎓 Student Dashboard
 
----
+<p align="center">
+
+<img src="demo/snap-student-flow-3-dashboard.png" width="900">
+
+</p>
 
 ## 📱 QR Code Classroom Joining
+<p align="center">
 
-> *(Add QR Code Screenshot)*
+<img src="demo/snap-teacher-flow-4-share-qr-or-link.png" width="900">
 
----
-
-## 📷 Face Recognition Attendance
-
-> *(Add Face Recognition Screenshot)*
-
----
+</p>
 
 ## 🎤 Voice Recognition Attendance
+<p align="center">
 
-> *(Add Voice Recognition Screenshot)*
+<img src="demo/snap-teacher-flow-5.1-voice-attendance.png" width="900">
 
----
+</p>
 
 ## 📊 Attendance Records
+<p align="center">
 
-> *(Add Attendance Screenshot)*
+<img src="demo/snap-teacher-flow-5-see-stored-records.png" width="900">
 
+</p>
 ---
 
-# 🚀 Getting Started
-
-## Clone the Repository
+## 🚀 Installation
 
 ```bash
+
 git clone https://github.com/chesta02/Snapclass-main.git
+
 cd Snapclass-main
-```
 
-## Create a Virtual Environment (Optional)
-
-### Windows
-
-```bash
-python -m venv venv
-venv\Scripts\activate
-```
-
-### macOS/Linux
-
-```bash
-python3 -m venv venv
-source venv/bin/activate
-```
-
-## Install Dependencies
-
-```bash
 pip install -r requirements.txt
-```
 
-## Configure Supabase
-
-Create a `.streamlit/secrets.toml` file and add your credentials:
-
-```toml
-SUPABASE_URL="YOUR_SUPABASE_URL"
-SUPABASE_KEY="YOUR_SUPABASE_KEY"
-```
-
-> **Note:** If you're deploying on Streamlit Community Cloud, configure these values in the app's **Secrets** section instead of committing them to GitHub.
-
-## Run the Application
-
-```bash
 streamlit run app.py
+
+```
+
+Configure your **Supabase** credentials inside:
+
+```text
+
+.streamlit/secrets.toml
+
 ```
 
 ---
 
-# 🔒 Security
+## 🔒 Security
 
-- 🔐 Encrypted Password Storage (bcrypt)
-- 📷 Face Recognition Authentication
-- 🎤 Voice Recognition Authentication
-- ☁️ Secure Cloud Database with Supabase
-- 👤 Role-Based Access for Teachers and Students
+- Password Encryption (bcrypt)
 
----
+- Face Recognition Authentication
 
-# 🎯 Future Enhancements
+- Voice Recognition Authentication
 
-- 📱 Mobile Application
-- 📊 Attendance Analytics Dashboard
-- 📄 Export Attendance Reports (PDF/Excel)
-- 📧 Email Notifications
-- 📅 Timetable Management
-- 🌐 Multi-Institution Support
+- Secure Cloud Database (Supabase)
+
+- Role-Based Access Control
 
 ---
 
-# 👩‍💻 Author
+## 🎯 Future Enhancements
+
+- Mobile Application
+
+- Attendance Analytics
+
+- Email Notifications
+
+- Export Attendance Reports
+
+- Multi-Institution Support
+
+---
+
+## 👩‍💻 Author
 
 **Chesta Chauhan**
 
-**B.Tech Computer Science & Engineering (AI/ML & Robotics)**  
+B.Tech CSE (AI/ML & Robotics)  
+
 DIT University
-
-🌐 **Live Demo:** https://snapclass-maiin.streamlit.app/
-
-💻 **GitHub:** https://github.com/chesta02
 
 ---
 
 <div align="center">
 
-### ⭐ If you found this project useful, don't forget to star the repository!
-
-**Built with ❤️ using Python, Streamlit & AI**
+⭐ If you found this project useful, don't forget to star the repository!
 
 </div>
