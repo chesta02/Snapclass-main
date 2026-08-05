@@ -15,8 +15,7 @@ SnapClass is an AI-powered classroom management system that simplifies classroom
 
 ---
 🌐 Landing Page:
-https://github.com/chesta02/<snapclass-landing-page-repo>
-
+https://github.com/chesta02/snapclass-landing-page
 ## 🌐 Live Demo
 
 🔗 **https://snapclass-maiin.streamlit.app/**
